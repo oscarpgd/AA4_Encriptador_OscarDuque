@@ -1,3 +1,4 @@
 ﻿  main.cpp
-D:\DOCUMENTOS ------\Z_Enti\2o\MIster\AA4\AA4_Encriptador_OscarDuque\main.cpp(6,6): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+D:\DOCUMENTOS ------\Z_Enti\2o\MIster\AA4\AA4_Encriptador_OscarDuque\main.cpp(7,6): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+D:\DOCUMENTOS ------\Z_Enti\2o\MIster\AA4\AA4_Encriptador_OscarDuque\Encriptar.h(27,1): warning C4717: 'CesarDecript': recursiva para todas las rutas de acceso de control; la función provocará el desbordamiento de la pila en tiempo de ejecución
   AA4_Encriptador.vcxproj -> D:\DOCUMENTOS ------\Z_Enti\2o\MIster\AA4\AA4_Encriptador_OscarDuque\x64\Debug\AA4_Encriptador.exe

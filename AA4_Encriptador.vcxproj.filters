@@ -20,8 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Encriptar.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
     <ClInclude Include="FileOpen.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de recursos</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
