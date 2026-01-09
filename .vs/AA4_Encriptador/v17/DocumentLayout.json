@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\FileOpen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|solutionrelative:FileOpen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\FileOpen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|solutionrelative:FileOpen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C12CEBE-C016-4F00-AA96-E21A0D8DB8EC}|AA4_Encriptador.vcxproj|D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\Encriptar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 554,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +31,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-07T16:53:56.622Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -58,12 +45,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T16:53:56.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FileOpen.h",
               "DocumentMoniker": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\FileOpen.h",
               "RelativeDocumentMoniker": "FileOpen.h",
               "ToolTip": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\FileOpen.h",
               "RelativeToolTip": "FileOpen.h",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAEwFwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-07T18:03:29.852Z",
               "EditorCaption": ""
@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "Encriptar.h",
               "ToolTip": "D:\\DOCUMENTOS ------\\Z_Enti\\2o\\MIster\\AA4\\AA4_Encriptador_OscarDuque\\Encriptar.h",
               "RelativeToolTip": "Encriptar.h",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAMwCIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-01-07T21:53:26.337Z",
               "EditorCaption": ""

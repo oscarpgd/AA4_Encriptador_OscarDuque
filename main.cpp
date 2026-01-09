@@ -4,52 +4,54 @@
 #include "FileOpen.h"
 #include "Encriptar.h"
 
+//Diseño del main
 void main() 
 {
-	bool eraseContent;
+	//Fase 1, Comprobación de contenido
 	int shift = 3;
+	bool eraseContent = true;
 
-	int storedCheckNum = -1;
-	int fileCheckNum = -1;
-	
-	bool isEmpty = ReadFile(); //Comprobamos si esta vacio
+	//Parte 2: bool ? Escritura y lectura normal : Preguntas y todo el rollo
+	bool isEmpty = ReadFile();
 
-	if (isEmpty) 
+	if (!isEmpty) 
 	{
-		eraseContent = true; //Se hace automaticamente porque que mas da
-		WriteFile(eraseContent, shift);
-	}
-	else if (!isEmpty) 
-	{
-		//Comprobacion del CheckNum
-		storedCheckNum = ReadCheckNum();
-		std::string tempContent = ReadFile4CheckNum();
-		fileCheckNum = CalcularCheckSum(tempContent);
+		// Verifica checksum.
+		int storedCheck = ReadCheckNum();
+		std::string encrypted = ReadContent();
+		int calculatedCheck = CalcularCheckSum(encrypted);
 
-		if (storedCheckNum != fileCheckNum)
+		if (storedCheck != calculatedCheck) 
+		{
 			std::cout << "Aviso: Se ha modificado el archivo externamente\n\n";
+		}
 
-		//Vuelta a la lógica
-		int i = 0;
 		std::cout << "Se ha detectado contenido en el archivo, quieres mantenerlo y escribir por encima, o borrar lo que ya hay y empezar de 0\n";
 		std::cout << "Si quieres borrar, escribe 1, si quieres mantener escribe 0\n";
 		std::cout << "En caso de mantenerlos, se mostraran a continuacion\n";
-		std::cin >> i;
 
-		if (i == 0) {
-			WriteFromFile(-shift); //En negativo porque sino sigue palante
+		int choice;
+		std::cin >> choice;
+		std::cin.ignore();  //Para evitar problemas, he encontrado que desps de un cin, en temas de archivos, mejor poner siempre un ignore justo detrás
+
+		if (choice == 0) 
+		{
 			eraseContent = false;
-			WriteFile(eraseContent, shift);
+			DisplayOldContent(shift);
 		}
-		else if (i == 1)
+		else if (choice == 1) 
 		{
 			eraseContent = true;
-			WriteFile(eraseContent, shift);
 		}
-		else if (i != 0 && i != 1) {
-			std::cout << "Eres gilipollas o que?, escribe bien locooo\n";
+		else {
+			std::cout << "Contenido Invalido\n";
 			return;
 		}
 	}
+
+	//Separación del código aqui que sino se me bugeaba
+	WriteFile(eraseContent, shift);
+	return;
 }
+
 
